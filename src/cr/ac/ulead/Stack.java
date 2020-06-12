@@ -2,8 +2,12 @@ package cr.ac.ulead;
 
 public class Stack {
 
-    int[] data = new int[100];
+    int[] data;
     int top = 0;
+
+    public Stack (int tamanno) {
+         data = new int[tamanno];
+    }
 
     public boolean isEmpty() {
         if (this.top == 0){
