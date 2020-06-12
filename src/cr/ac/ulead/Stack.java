@@ -7,6 +7,7 @@ public class Stack {
 
     public Stack (int tamanno) {
          data = new int[tamanno];
+
     }
 
     public boolean isEmpty() {

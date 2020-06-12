@@ -10,5 +10,16 @@ public class Main {
         System.out.println(miPila.pop());
         System.out.println(miPila.pop());
         System.out.println(miPila.pop());
+
+        Queue miCola = new Queue();
+        miCola.enqueue(5);
+        miCola.enqueue(1);
+        miCola.enqueue(23);
+        miCola.enqueue(15);
+        System.out.println(miCola.dequeue());
+        System.out.println(miCola.dequeue());
+        System.out.println(miCola.dequeue());
+        System.out.println(miCola.dequeue());
+
     }
 }
